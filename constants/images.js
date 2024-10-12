@@ -6,6 +6,7 @@ import logo from "../assets/images/logo.png";
 import logoSmall from "../assets/images/logo-small.png";
 import empty from "../assets/images/empty.png";
 import background1 from "../assets/images/background1.jpg";
+import backgroundmain from "../assets/images/background-main.png";
 
 export default {
   profile,
@@ -16,4 +17,5 @@ export default {
   logoSmall,
   empty,
   background1,
+  backgroundmain,
 };

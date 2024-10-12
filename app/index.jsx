@@ -30,9 +30,11 @@ export default function App() {
               handlePress={() => router.push("/sign-up")}
               containerStyles="w-full mt-3"
             />
-            <Text className="mt-3 font-pregular text-base text-[#4B4B4B]">
+            <Text className="mt-3 font-pregular text-sm text-[#4B4B4B]">
               Have an account?{" "}
-              <Text className="font-pbold text-secondary">Login</Text>
+              <Link href="/sign-in" className="font-pbold text-secondary">
+                Login
+              </Link>
             </Text>
           </View>
         </ScrollView>
