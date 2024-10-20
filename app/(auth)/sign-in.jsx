@@ -21,8 +21,8 @@ const SignIn = () => {
         resizeMode="cover"
         imageStyle={{ opacity: 0.03 }}
       >
-        <ScrollView contentContainerStyle={{ height: "100%" }}>
-          <View className="w-full justify-center h-full p-7">
+        <ScrollView>
+          <View className="w-full justify-center min-h-[85vh] p-7">
             <View className="flex-row items-center">
               <Image
                 source={images.logo}
@@ -51,7 +51,7 @@ const SignIn = () => {
             />
             <CustomButton
               title="Log in"
-              handlePress={() => router.push("/sign-up")}
+              handlePress={() => router.push("home")}
               containerStyles="w-full mt-5"
               isLoading={isSubmitting}
             />
